@@ -2,6 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7c8b78f-1c6b-46a0-82b3-34e3957c5c28" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/entry.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/android-desktop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/android.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/co1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/co2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ios-desktop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/road.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/road_big.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/shopping.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sunset.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/wikiday.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/styles.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,36 +33,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="225" column="42" lean-forward="false" selection-start-line="225" selection-start-column="42" selection-end-line="225" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sunset.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/sunset.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="entry.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entry.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="140" column="30" lean-forward="false" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="502" column="18" lean-forward="false" selection-start-line="502" selection-start-column="18" selection-end-line="502" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="1393">
+              <caret line="248" column="53" lean-forward="true" selection-start-line="248" selection-start-column="53" selection-end-line="248" selection-end-column="53" />
+              <folding>
+                <element signature="e#10710#10716#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,6 +64,7 @@
       <find>source</find>
       <find>On road</find>
       <find>gold</find>
+      <find>Threads</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,8 +93,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
-    <option name="y" value="76" />
+    <option name="x" value="11" />
+    <option name="y" value="65" />
     <option name="width" value="1360" />
     <option name="height" value="640" />
   </component>
@@ -141,11 +134,6 @@
             <path>
               <item name="walterwhites.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="walterwhites.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="walterwhites.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="walterwhites.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -188,15 +176,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532192713704</updated>
-      <workItem from="1532192715514" duration="3484000" />
+      <workItem from="1532192715514" duration="4511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3484000" />
+    <option name="totallyTimeSpent" value="4511000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="76" width="1360" height="640" extended-state="0" />
+    <frame x="11" y="65" width="1360" height="640" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -287,9 +275,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="225" column="42" lean-forward="false" selection-start-line="225" selection-start-column="42" selection-end-line="225" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="1393">
+          <caret line="248" column="53" lean-forward="true" selection-start-line="248" selection-start-column="53" selection-end-line="248" selection-end-column="53" />
+          <folding>
+            <element signature="e#10710#10716#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
