@@ -12,3 +12,15 @@
 @import "team.scss";
 @import "contact.scss";
 @import "footer.scss";
+
+ul {
+  list-style: square;
+}
+
+ul li {
+  text-align: left;
+}
+
+.modal-body {
+  text-align: left;
+}

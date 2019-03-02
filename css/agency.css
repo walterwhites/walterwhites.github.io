@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Agency v4.1.1 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2018 Start Bootstrap
+ * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 body {
@@ -172,7 +172,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/guy.jpg");
+  background-image: url("../img/header/paul.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -696,4 +696,16 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
+}
+
+ul {
+  list-style: square;
+}
+
+ul li {
+  text-align: left;
+}
+
+.modal-body {
+  text-align: left;
 }

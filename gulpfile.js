@@ -64,6 +64,7 @@ gulp.task('css:compile', function() {
     .pipe(gulp.dest('./css'))
 });
 
+
 // Minify CSS
 gulp.task('css:minify', ['css:compile'], function() {
   return gulp.src([
