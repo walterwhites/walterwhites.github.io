@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7c8b78f-1c6b-46a0-82b3-34e3957c5c28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio/Qr-code-scanner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qr-code-scanner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikiday.html" afterPath="$PROJECT_DIR$/wikiday.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,13 +13,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="390" column="60" lean-forward="false" selection-start-line="390" selection-start-column="60" selection-end-line="390" selection-end-column="60" />
+            <state relative-caret-position="295">
+              <caret line="394" column="55" lean-forward="false" selection-start-line="394" selection-start-column="55" selection-end-line="394" selection-end-column="55" />
               <folding>
-                <element signature="e#10040#10046#0" expanded="true" />
+                <element signature="e#10093#10099#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="qr-code-scanner.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="qr-code-scanner.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qr-code-scanner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
+            <state relative-caret-position="309">
               <caret line="63" column="31" lean-forward="false" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="31" />
               <folding>
                 <element signature="e#9110#9115#0" expanded="true" />
@@ -118,7 +114,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>337</find>
       <find>Android</find>
       <find>/avat</find>
       <find>I coul</find>
@@ -148,6 +143,7 @@
       <find>&gt;Explore</find>
       <find>see on</find>
       <find>wikida</find>
+      <find>wiki</find>
     </findStrings>
     <replaceStrings>
       <replace>Close</replace>
@@ -305,12 +301,12 @@
       <workItem from="1559392543840" duration="4000" />
       <workItem from="1584655926880" duration="1421000" />
       <workItem from="1598090490926" duration="926000" />
-      <workItem from="1598207804881" duration="783000" />
+      <workItem from="1598207804881" duration="1391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14933000" />
+    <option name="totallyTimeSpent" value="15541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -351,7 +347,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#10040#10046#0" expanded="true" />
+            <element signature="e#10093#10099#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -427,7 +423,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#10040#10046#0" expanded="true" />
+            <element signature="e#10093#10099#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -615,16 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="390" column="60" lean-forward="false" selection-start-line="390" selection-start-column="60" selection-end-line="390" selection-end-column="60" />
-          <folding>
-            <element signature="e#10040#10046#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/portfolio/Qr-code-scanner.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -632,10 +618,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qr-code-scanner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
+        <state relative-caret-position="309">
           <caret line="63" column="31" lean-forward="false" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="31" />
           <folding>
             <element signature="e#9110#9115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="394" column="55" lean-forward="false" selection-start-line="394" selection-start-column="55" selection-end-line="394" selection-end-column="55" />
+          <folding>
+            <element signature="e#10093#10099#0" expanded="true" />
           </folding>
         </state>
       </provider>
