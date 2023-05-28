@@ -171,8 +171,7 @@ img::-moz-selection {
 
 header.masthead {
   text-align: center;
-  color: white;
-  background-image: url("../img/header/paul.jpg");
+  color: goldenrod;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -182,17 +181,23 @@ header.masthead {
   background-size: cover;
 }
 
+.paul {
+  background-image: url("../img/header/paul.jpg");
+}
+
 header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
 }
 
+
 header.masthead .intro-text .intro-lead-in {
-  font-size: 22px;
+  font-size: 30px;
   font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #aba579;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -708,4 +713,20 @@ ul li {
 
 .modal-body {
   text-align: left;
+}
+
+.feedEkList{width:800px; list-style:none outside none;background-color:#FFFFFF; border:1px solid black; padding:4px 6px; color:#3E3E3E;}
+.feedEkList li{border-bottom:1px solid black; padding:5px;}
+.feedEkList li:last-child{border-bottom:none;}
+.itemTitle a{font-weight:bold; color:black !important; text-decoration:none }
+.medium-feed-item a{font-weight:bold; color:black !important; text-decoration:none }
+.itemTitle a:hover{ text-decoration:underline }
+.itemDate{font-size:11px;color:black;}
+.itemAuthor{font-size:11px;color:black; text-align: right}
+#divFeed {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.feed-item {
+  margin-bottom: 150px;
 }

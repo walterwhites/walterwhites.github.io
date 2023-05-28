@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Blog</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/FeedEk.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  </head>
+
+  <body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="index.html">Magic Flo</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="index.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" target="_blank" href="https://www.youtube.com/watch?v=gpfOQNFFV9E">Yesterday</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in">Talk about Data Science, Security and Quality</div>
+          <a href="https://medium.com/@walterwhites" target="_blank">Find me on Medium</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Portfolio Grid -->
+    <section class="bg-light" id="portfolio">
+      <div>
+        <div class="feedDiv">
+          <div id="divFeed"></div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; walterwhites.github.io/ 2018</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/flo-masdoum/">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+
+    <script type="text/javascript">
+      $('#divFeed').FeedEk({
+        FeedUrl: 'https://medium.com/feed/@walterwhites',
+        MaxCount: 50,
+        ShowDesc: true,
+        ShowPubDate: true,
+        DescCharacterLimit: 500,
+        TitleLinkTarget: '_blank',
+        DateFormat: 'MM/dd/yyyy',
+        DateFormatLang: 'en',
+        ShowAuthor: false,
+        AuthorLabel: "Author:",
+        Success: function (feedItems) {
+          // Filter the feed items for machine learning articles
+          var machineLearningItems = feedItems.filter(function (item) {
+            return item.title;
+          });
+
+          // Clear the existing feed items in #divFeed
+          $('#divFeed').empty();
+
+          // Display machine learning articles in #divFeed
+          machineLearningItems.forEach(function (item) {
+            // Remove <img> markup from item.description
+            var description = item.description.replace(/<img[^>]*>/g, function (imgTag) {
+              // Add a style attribute to the img tag to set its width
+              return imgTag.replace(">", ' style="width:40%;" >');
+            });
+
+            var itemHtml = '<div class="feed-item">';
+            itemHtml += '<h2 class="feed-title"><a href="' + item.link + '" class="text-black-50">' + item.title + '</a></h2>';
+            itemHtml += '<div class="feed-date">' + item.publishDateFormatted + '</div>';
+            itemHtml += '<div class="feed-description">' + description + '</div>';
+            itemHtml += '</div>';
+            $('#divFeed').append(itemHtml);
+          });
+        },
+        Error: function (error) {
+          console.log(error);
+        }
+      });
+
+      // Repeat the above code for other sections with different categories
+
+    </script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+  </body>
+
+</html>
