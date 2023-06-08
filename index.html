@@ -66,7 +66,7 @@
           </div>
 
           <div class="music">
-            <button class="btn btn-primary btn-lg" onClick="toggleMusic()">
+            <button class="btn btn-primary btn-lg" id="paul-button" onClick="toggleMusic()">
               ▷
             </button>
             <audio id="myAudio">
@@ -384,15 +384,18 @@
     <script>
       var audio = document.getElementById("myAudio");
       var isPlaying = false;
+      var playButton = document.getElementById("paul-button");
 
       function toggleMusic() {
         if (isPlaying) {
           audio.pause();
           audio.currentTime = 0;
           isPlaying = false;
+          playButton.textContent = "▷";
         } else {
           audio.play();
           isPlaying = true;
+          playButton.textContent = "||";
         }
       }
     </script>
