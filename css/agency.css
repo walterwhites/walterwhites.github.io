@@ -161,16 +161,11 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: white;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     padding: 12px 0;
-  }
-  #mainNav.navbar-shrink.blog {
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: white;
   }
 }
 
@@ -187,7 +182,11 @@ header.masthead {
 }
 
 .paul {
-  background-image: url("../img/header/paul.jpg");
+  background-image: url(../img/header/hair.jpeg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  margin-top: 200px;
+  text-align: center;
 }
 
 header.masthead .intro-text {
@@ -736,17 +735,11 @@ ul li {
   margin-bottom: 150px;
 }
 
-#navbarResponsive #ul-blog {
+#navbarResponsive #ul {
   background-color: white;
   border-radius: unset;
 }
 
-#navbarResponsive #ul-blog li a {
+#navbarResponsive #ul li a {
   color: black;
 }
-
-#navbarResponsive ul {
-  background-color: #212529;
-  border-radius: 30px;
-}
-
