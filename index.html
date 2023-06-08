@@ -61,6 +61,20 @@
     <header class="masthead">
       <div class="container paul">
         <div class="intro-text">
+          <div class="loader">
+            <i class="fas fa-spinner"></i>
+          </div>
+
+          <div class="music">
+            <button class="btn btn-primary btn-lg" onClick="toggleMusic()">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z"/>
+              </svg>
+            </button>
+            <audio id="myAudio">
+              <source src="letitbe.mp3" type="audio/mpeg">
+            </audio>
+          </div>
         </div>
       </div>
     </header>
@@ -368,6 +382,23 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+      var audio = document.getElementById("myAudio");
+      var isPlaying = false;
+
+      function toggleMusic() {
+        if (isPlaying) {
+          audio.pause();
+          audio.currentTime = 0;
+          isPlaying = false;
+        } else {
+          audio.play();
+          isPlaying = true;
+        }
+      }
+    </script>
 
   </body>
 
