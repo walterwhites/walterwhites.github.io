@@ -167,6 +167,11 @@ img::-moz-selection {
     font-size: 1.25em;
     padding: 12px 0;
   }
+  #mainNav.navbar-shrink.blog {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: white;
+  }
 }
 
 header.masthead {
@@ -730,3 +735,18 @@ ul li {
 .feed-item {
   margin-bottom: 150px;
 }
+
+#navbarResponsive #ul-blog {
+  background-color: white;
+  border-radius: unset;
+}
+
+#navbarResponsive #ul-blog li a {
+  color: black;
+}
+
+#navbarResponsive ul {
+  background-color: #212529;
+  border-radius: 30px;
+}
+
