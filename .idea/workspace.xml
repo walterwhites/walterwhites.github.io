@@ -5,46 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7c8b78f-1c6b-46a0-82b3-34e3957c5c28" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/algorithms.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/algorithms/supervised.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/algorithms/supervised/classification.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/algorithms/supervised/regression.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/algorithms/unsupervised.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/anomaly-detection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/anomaly-detection/algorithms.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/anomaly-detection/types.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/applications.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/applications/image-classification.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/applications/nlp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/applications/speech-recognition.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/deep-learning.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/deep-learning/ann.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/deep-learning/cnn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/deep-learning/nlp-deep.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/ethics.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/ethics/fairness.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/ethics/privacy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/evaluation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/evaluation/confusion-matrix.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/evaluation/cross-validation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/evaluation/metrics.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/mind-map/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/optimization.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/optimization/gradient-descent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/optimization/hyperparameter-tuning.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/preprocessing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/preprocessing/feature-engineering.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/preprocessing/normalization.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/preprocessing/standardization.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/regression.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/reinforcement-learning.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/reinforcement-learning/applications.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/reinforcement-learning/fundamentals.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lbc/machine-learning/supervised.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/removeAccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikiday.html" beforeDir="false" afterPath="$PROJECT_DIR$/wikiday.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +226,7 @@
       <workItem from="1694182383067" duration="1270000" />
       <workItem from="1694186737876" duration="2019000" />
       <workItem from="1694195246131" duration="12000" />
-      <workItem from="1705763736893" duration="209000" />
+      <workItem from="1705763736893" duration="311000" />
     </task>
     <servers />
   </component>
