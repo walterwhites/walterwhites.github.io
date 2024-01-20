@@ -1,0 +1,124 @@
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title {
+    color: white
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Style du footer */
+footer {
+    background-color: #333; /* Couleur de fond du footer */
+    color: #fff; /* Couleur du texte dans le footer */
+    padding: 20px; /* Espace intérieur du footer */
+    text-align: center; /* Alignement du texte au centre */
+    height: 100px;
+}
+
+/* Style du texte dans le footer */
+footer p {
+    font-size: 12px; /* Taille de police plus petite pour le texte du copyright */
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    min-height: 1000px;
+}
+
+.concept {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.concept h2 {
+    font-size: 1.5rem;
+}
+
+.concept p {
+    margin-top: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #114379;
+}
+
+.category-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.category-card h2 {
+    font-size: 1.5rem;
+}
+
+.category-card p {
+    margin-top: 0.5rem;
+}
+
+.category-card a {
+    text-decoration: none;
+    color: #114379FF;
+}
+
+/* Style pour la chips */
+.category-chip {
+    background-color: #333; /* Gris foncé */
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Style pour les liens dans la chips */
+.category-chip a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Style pour les sections */
+section {
+    background-color: #e0e0e0; /* Gris clair légèrement plus foncé */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px; /* Marge entre les sections */
+}
+
+/* Style pour la liste de ressources */
+.resources-card ul {
+    list-style-type: square; /* Utilisation de carrés */
+    margin-left: 20px; /* Marge à gauche */
+}
+
+#pdf-container {
+    height: 600px;
+    overflow: hidden;
+}

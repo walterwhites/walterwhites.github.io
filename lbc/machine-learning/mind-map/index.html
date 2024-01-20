@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn by Concept</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.10.111/pdf_viewer.min.css" integrity="sha512-Z5HBzDLq4pNtQquaC4QId9tfhvqlzkQ9yMnEjqS65HAVKRH5v4vhwnFg3a4lvRGDM7LoU7xatEv8cGVsu7Kfeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header>
+    <h1><a id="title" href="index.html">Learn by Concept</a></h1>
+</header>
+<main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.10.111/pdf_viewer.min.js" integrity="sha512-SVZCWwZ4Kmku1aV/yd9DC+c2xA6MCdEwlzWKHJXFtsOarbJ7Z2I9L0Ag/y04juLxe3c8lT1VzO1M2MhPMk3FPg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.10.111/pdf.min.js" integrity="sha512-hoZmP5l0sJQzHzkXQS3ZCj/H7bOn8JKmbHd/s2trPUoMcvPaBfLSE9/92cpwYzcXBaEtVT/aCQ9P97rkTSWqcw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <object data="http://localhost:3000/mind-map/Machine%20Learning%20Mind%20Map.pdf" type="application/pdf" width="100%" height="600">
+        <p>It appears you don't have a PDF plugin for this browser.
+            <a href="http://localhost:3000/mind-map/Machine%20Learning%20Mind%20Map.pdf">Click here to download the PDF file.</a></p>
+    </object>
+
+    <script>
+        // Check if the iframe element exists
+        var pdfIframe = document.querySelector("#pdf-container iframe");
+        if (pdfIframe) {
+            pdfIframe.addEventListener("load", function () {
+                pdfIframe.contentWindow.document.body.style.overflow = "hidden";
+            });
+        }
+    </script>
+</main>
+<footer>
+    <div class="footer-content">
+        <p>&copy; All Rights Reserved 2023 @walterwhites</p>
+    </div>
+</footer>
+</body>
+<script>
+    // Check if the iframe element exists
+    var pdfIframe = document.querySelector("#pdf-container iframe");
+    if (pdfIframe) {
+        pdfIframe.addEventListener("load", function () {
+            pdfIframe.contentDocument.body.style.overflow = "hidden";
+            pdfIframe.contentWindow.addEventListener("scroll", function () {
+                pdfIframe.contentWindow.scrollTo(0, 0); // Block scrolling
+            });
+        });
+    }
+</script>
+</html>
