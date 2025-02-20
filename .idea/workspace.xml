@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7c8b78f-1c6b-46a0-82b3-34e3957c5c28" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/wikiday.html" beforeDir="false" afterPath="$PROJECT_DIR$/wikiday.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +226,9 @@
       <workItem from="1694182383067" duration="1270000" />
       <workItem from="1694186737876" duration="2019000" />
       <workItem from="1694195246131" duration="12000" />
-      <workItem from="1705763736893" duration="1142000" />
+      <workItem from="1705763736893" duration="2337000" />
+      <workItem from="1708015584138" duration="597000" />
+      <workItem from="1712812504884" duration="24000" />
     </task>
     <servers />
   </component>
