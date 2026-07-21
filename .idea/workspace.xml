@@ -6,6 +6,48 @@
   <component name="ChangeListManager">
     <list default="true" id="b7c8b78f-1c6b-46a0-82b3-34e3957c5c28" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feedek.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/algorithms.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/algorithms/supervised.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/algorithms/supervised/classification.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/algorithms/supervised/regression.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/algorithms/unsupervised.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/anomaly-detection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/anomaly-detection/algorithms.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/anomaly-detection/types.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/applications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/applications/image-classification.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/applications/nlp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/applications/speech-recognition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/deep-learning.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/deep-learning/ann.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/deep-learning/cnn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/deep-learning/nlp-deep.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/ethics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/ethics/fairness.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/ethics/privacy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/evaluation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/evaluation/confusion-matrix.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/evaluation/cross-validation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/evaluation/metrics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/mind-map/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/optimization.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/optimization/gradient-descent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/optimization/hyperparameter-tuning.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/preprocessing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/preprocessing/feature-engineering.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/preprocessing/normalization.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/preprocessing/standardization.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/regression.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/reinforcement-learning.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/reinforcement-learning/applications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/reinforcement-learning/fundamentals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lbc/machine-learning/supervised.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/papyrus.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,21 +205,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/flo/workspace/walterwhites.github.io/lbc/machine-learning/mind-map&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/flo/workspace/walterwhites.github.io",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lbc/machine-learning/mind-map" />
